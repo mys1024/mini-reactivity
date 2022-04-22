@@ -1,0 +1,18 @@
+{
+  "name": "mini-reactivity",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A mini implementation of Vue3's Reactivity API.",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-node --esm test/index.test.ts"
+  },
+  "author": "mys1024",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.25",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
